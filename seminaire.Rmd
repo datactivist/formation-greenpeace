@@ -1,0 +1,256 @@
+---
+title: "Data activisme"
+subtitle: "Comment faire campagne avec des données ?"
+author: "Samuel Goëta"
+date: "Greenpeace France, 11 juillet 2017"
+output:
+  xaringan::moon_reader:
+    css: [default, xaringan.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+class: center, middle
+
+Retrouvez les matériaux sur https://github.com/datactivist/greenpeace-formation/
+
+Ces slides en ligne : http://datactivi.st/greenpeace-formation/seminaire.html
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<img src="./img/Logo_DATACTIVIST_TW.png" height="150px" />
+
+
+---
+
+# Open data : Un trésor méconnu et sous exploité
+[![](./img/reddit.png)](https://www.reddit.com/r/france/comments/5ing61/datagouv_ou_comment_perdre_des_heures_%C3%A0_se/)
+???
+---
+#Objectifs de la session
+
+.pull-left[
+- Montrer que l'on peut utiliser l'open data pour faire campagne et mobiliser
+<br/><br/><br/>
+- Connaitre les origines et les grands principes de l'open data
+<br/><br/><br/>
+- Découvrir quelques bases de données ouvertes à exploiter
+<br/><br/><br/>]
+.pull-right[
+![](./img/opendata.jpg)]
+
+---
+# Au menu
+- Open data, big data, linked data, raw data, data API : les habits neufs des données
+
+- Le cadre légal de l’ouverture des données : loi CADA, directives INSPIRE et PSI,
+licence ouverte, loi pour une République Numérique...
+
+- Les acteurs et les grands principes de l’ouverture des données
+
+- Les principales bases de données ouvertes à exploiter sur data.gouv.fr dans le
+domaine de l’environnement
+
+- Tour d’horizon des fonctions de data.gouv.fr
+
+- Annonce et introduction de la deuxième session
+
+---
+class:inverse,middle,center
+# Les habits neufs des données : petit glossaire préliminaire 
+
+---
+# Les habits neufs des données
+.pull-left[- **Open data** : des données numériques souvent publiques librement réutilisables par tou.te.s d'un point de vue à la fois technique (formats ouverts) et juridique (licence ouverte)
+<br/><br/><br/>
+- **Linked data** : des données structurées définies par des ontologies sémantiques communes (chaque concept fait l'objet d'une définition) et reliées entre elles sur le web.]
+.pull-right[
+![](img/w3c.jpg)
+]
+---
+# Les habits neufs des données
+.pull-left[- **Big data** : des données généralement privées et fermées caractérisées principalement par leur volume (téraoctets de données), la vélocité de leur traitement (temps réel) et leur variété
+<br/><br/><br/>
+- **Data API** : une interface de programmation qui permet de se « brancher » pour échanger des données. L'API définit les règles et les limites à l'accès aux données.
+]
+.pull-right[
+![](img/big.jpg)
+]
+---
+class:inverse, center, middle
+#Petite histoire de l'open data
+Connaitre les principes, découvrir les acteurs 
+---
+#2005 : Open Definition, définir le savoir libre
+![http://opendefinition.org](img/opendef.png)
+---
+#2007 : Sebastopol (CA), établir les principes de l'Open Data
+![](img/sebastopol.jpg)
+---
+#2009 : Tim Berners-Lee, les données brutes sous les projecteurs
+.reduite[![](img/ted.png)]
+
+---
+#2011 : Open Government Partnership, l'internationalisation de la méthode Obama
+![](img/opengov.png)
+---
+#2013 : G8, les chefs d'Etat s'engagent pour l'open data par défaut
+.center[![](img/g8.jp2)]
+---
+class:center, inverse, middle
+#L'open data en France
+Cadre juridique et principaux acteurs
+
+---
+#Loi Commission d'Accès aux Documents Administratifs (1978)
+- Droit d'accès aux documents administratifs s'applique à **tous les documents** quelqu'en soit la forme : les données en font partie
+
+- S'impose à tous les organismes publics et privés **chargés d'une mission de service public**
+
+- Porte sur les documents **existants** et **achevés**. Exclut les demandes manifestivement **abusives** (entraver l'administration), les informations sur les **personnes physiques**, le **secret industriel** et commercial et la sureté de l'Etat. 
+
+- La demande peut se faire par **e-mail ou par courrier**, l'administration a un mois pour répondre. La CADA peut être saisie dans un **délai de deux mois** après le refus (y compris tacite). A la suite, le tribunal administratif puis le Conseil d'Etat peuvent être saisis.   
+
+.footnote[Le [site de la CADA](www.cada.fr) explique en détail la jurisprudence et les modalités d'exercice du droit d'accès.]
+---
+# Les directives européennes
+.pull-left[
+- **Directive Public Sector Information** (2003, révisée en 2013) : définit des règles minimales pour la réutilisation des informations publiques, limite les redevances et réduit certains obstacles à la réutilisation  
+
+- **Directive INSPIRE (2007)** a pour objectif de créer une infrastructure de données environnementales et géographiques. Impose des normes pour les métadonnées et des spécifications pour les données dans 34 thèmes.]
+.pull-right[
+![](./img/euro.png)
+]
+---
+#Loi pour une république numérique (2016) : l'open data devient la norme en France
+
+.pull-left[![](img/repu_numerique.jpg)]
+.pull-right[
+Ouverture “dans un standard ouvert, aisément réutilisable et exploitable par un système de traitement automatisé” : 
+- des “bases de données” : à définir
+- des données “dont la publication présente un intérêt économique, social, sanitaire ou environnemental”
+
+Obligation qui s’applique à partir de fin 2018 aux collectivités locales de 3500 habitants et aux administrations plus de 50 agents]
+
+---
+# Les licences de réutilisation
+.pull-left[- Article 11 de la loi pour une République Numérique : encadre les licences open data par décret. Deux licences homologuées :
+
+1. **La licence ouverte** :  totale liberté de réutilisation des données, y compris à des fins commerciales, des données. Impose de citer la source des données. 
+
+2. **La licence ODBL** : dans une logique de pot commun et de réciprocité, impose de maintenir la licence sur la base de données et les modifications qui y sont apportées.] 
+.pull-right[
+![](https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Open_Data_stickers.jpg)
+]
+---
+#Etalab : de l'ouverture à la gouvernance des données
+.pull-left[![](https://upload.wikimedia.org/wikipedia/fr/2/2f/Logo-etalab-320x200.png)]
+.pull-right[
+- Etalab : mission en charge de l'ouverture des données publiques
+
+- Pilote le plan d'action de la France à l'OGP
+
+- 2014 : nomination d'Henri Verdier en tant qu'Administrateur Général des Données (Chief Data Officer)
+
+- Startups d'Etat
+]
+---
+#Data.gouv.fr : la plateforme ouverte des données publiques françaises
+.pull-left[![data.gouv.fr](img/dgf.png)]
+.pull-right[
+- Objectif : simplifier le partage des données de l'Etat
+
+- Ouvert à toutes les contributions
+
+- Moissonage des portails open data français
+
+- Pas de visualisation
+
+- Un portail destiné à un public avancé 
+]
+
+---
+class:center, inverse, middle
+#Tour d'horizon des données ouvertes et de leurs usages
+---
+#La base SIRENE
+.reduite[.center[![](img/sirene.png)]]
+---
+#La base SIRENE : exemple de cas d'utilisation
+.reduite[.center[![](img/ruesoif.png)]]
+---
+#Les marchés publics
+.reduite[.center[![https://www.data.gouv.fr/fr/datasets/marches-publics-conclus-recenses-sur-la-plateforme-des-achats-de-letat/](img/place.png)]]
+---
+#Les marchés publics
+.reduite[.center[![https://www.data.gouv.fr/fr/datasets/marches-publics-conclus-recenses-sur-la-plateforme-des-achats-de-letat/](img/place2.png)]]
+---
+#Les inspections des restaurants
+.reduite2[.center[![](img/aliminfos.png)]]
+.footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
+---
+#Les inspections des restaurants
+.reduite2[.center[![](img/resto.png)]]
+.footnote[[26 établissements au niveau d'hygiène à corriger de manière urgent ](https://dgal.opendatasoft.com/explore/embed/dataset/export_alimconfiance/map/?disjunctive.app_libelle_activite_etablissement&disjunctive.filtre&refine.synthese_eval_sanit=A%20corriger%20de%20mani%C3%A8re%20urgente&location=6,47.24195,5.00977&static=false&datasetcard=true)]
+
+---
+#Les aides à la presse
+.reduite[.center[![](img/aidespresse.png)]]
+---
+#Les aides à la presse
+.reduite2[.center[![](img/spiil.png)]]
+.footnote[[SPIIL - Le spectaculaire archaïsme des aides à la presse : panorama des aides 2015
+](https://www.spiil.org/20160629/panorama-aides-2015-un-spectaculaire-archaisme)]
+---
+#La base transparence santé
+.reduite[.center[![](img/transpsante.png)]]
+---
+#La base transparence santé
+.reduite2[.center[![](img/transpsante2.png)]]
+
+---
+class:inverse, middle, center
+#L'open data par défaut : un mirage ?
+
+---
+#Une obligation sans moyens dédiés
+.pull-left[
+![](img/datameme.jpg)
+]
+.pull-right[
+- Un travail sous-évalué 
+
+- Un travail qui n'entre pas dans les missions des agents
+
+- Une transition vers l'open data par défaut peu préparée
+]
+---
+#La qualité des données
+
+.pull-left[
+- Des retours des usagers difficilement pris en compte
+
+- Encore trop de fichiers inexploitables
+
+- Des données trop souvent agrégées : la quête des données brutes 
+]
+.pull-right[
+![](img/dirtydata.jpg)
+]
+---
+#La loi CADA doit être renforcée et mieux connue
+.reduite2[.center[![](img/cadawtf.jpg)]]
+
+---
+#Vers un open data de la demande
+![](img/opengov.jpg)
+---
+class:inverse,center,middle
+#Maintenant, l'open data ça évoque quoi pour vous ? 
+---
+class:inverse,center,middle
+#Merci !
