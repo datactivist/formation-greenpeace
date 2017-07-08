@@ -1,23 +1,18 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Data activism</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Samuel Goëta" />
-    <link href="libs/remark-css-0.0.1/example.css" rel="stylesheet" />
-    <link rel="stylesheet" href="xaringan.css" type="text/css" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# Data activism
-## Comment faire campagne avec des données ?
-### Samuel Goëta
-### Greenpeace France, 11 juillet 2017
+---
+title: "Data activism"
+subtitle: "Comment faire campagne avec des données ?"
+author: "Samuel Goëta"
+date: "Greenpeace France, 11 juillet 2017"
+output:
+  xaringan::moon_reader:
+    css: [default, xaringan.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 
 ---
-
 class: center, middle
 
 Retrouvez les matériaux sur https://github.com/datactivist/greenpeace-formation/
@@ -26,7 +21,7 @@ Ces slides en ligne : http://datactivi.st/greenpeace-formation/seminaire.html
 
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
-&lt;img src="./img/Logo_DATACTIVIST_TW.png" height="150px" /&gt;
+<img src="./img/Logo_DATACTIVIST_TW.png" height="150px" />
 
 
 ---
@@ -41,11 +36,11 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 .pull-left[
 - Montrer que l'on peut utiliser l'open data pour faire campagne et mobiliser
-&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+<br/><br/><br/>
 - Connaitre les origines et les grands principes de l'open data
-&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+<br/><br/><br/>
 - Découvrir quelques bases de données ouvertes à exploiter
-&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;]
+<br/><br/><br/>]
 .pull-right[
 ![](./img/opendata.jpg)]
 
@@ -72,7 +67,7 @@ class:inverse,middle,center
 ---
 # Les habits neufs des données
 .pull-left[- **Open data** : des données numériques souvent publiques librement réutilisables par tou.te.s d'un point de vue à la fois technique (formats ouverts) et juridique (licence ouverte)
-&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+<br/><br/><br/>
 - **Linked data** : des données structurées définies par des ontologies sémantiques communes (chaque concept fait l'objet d'une définition) et reliées entre elles sur le web.]
 .pull-right[
 ![](img/w3c.jpg)
@@ -80,7 +75,7 @@ class:inverse,middle,center
 ---
 # Les habits neufs des données
 .pull-left[- **Big data** : des données généralement privées et fermées caractérisées principalement par leur volume (téraoctets de données), la vélocité de leur traitement (temps réel) et leur variété
-&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+<br/><br/><br/>
 - **Data API** : une interface de programmation qui permet de se « brancher » pour échanger des données. L'API définit les règles et les limites à l'accès aux données.
 ]
 .pull-right[
@@ -203,7 +198,7 @@ Hors du domaine de l'environnement
 ---
 #Les inspections des restaurants
 .reduite2[.center[![](img/resto.png)]]
-.footnote[[26 établissements au niveau d'hygiène à corriger de manière urgent ](https://dgal.opendatasoft.com/explore/embed/dataset/export_alimconfiance/map/?disjunctive.app_libelle_activite_etablissement&amp;disjunctive.filtre&amp;refine.synthese_eval_sanit=A%20corriger%20de%20mani%C3%A8re%20urgente&amp;location=6,47.24195,5.00977&amp;static=false&amp;datasetcard=true)]
+.footnote[[26 établissements au niveau d'hygiène à corriger de manière urgent ](https://dgal.opendatasoft.com/explore/embed/dataset/export_alimconfiance/map/?disjunctive.app_libelle_activite_etablissement&disjunctive.filtre&refine.synthese_eval_sanit=A%20corriger%20de%20mani%C3%A8re%20urgente&location=6,47.24195,5.00977&static=false&datasetcard=true)]
 
 ---
 #Les aides à la presse
@@ -303,32 +298,3 @@ class:inverse,center,middle
 ---
 class:inverse,center,middle
 #Merci !
-    </textarea>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false
-});
-if (window.HTMLWidgets) slideshow.on('showSlide', function (slide) {setTimeout(function() {window.dispatchEvent(new Event('resize'));}, 100)});</script>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-  }
-});
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
