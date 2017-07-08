@@ -99,7 +99,8 @@ constituer une base de données suffisante pour mobiliser
 ✅
 Le crowdsourcing de données]
 
-----
+
+---
 class:inverse,middle,center
 # Les habits neufs des données
 ###Petit glossaire préalable 
@@ -265,7 +266,7 @@ class:inverse, middle, center
 ---
 # E-phy : le catalogue des produits phytosanitaires
 [![](img/ephy.png)](https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-catalogue-des-produits-phytopharmaceutiques-adjuvants-matieres-fertilisantes-et-support-de-culture-produits-mixtes-et-melanges-e-phy/)
----
+
 ---
 # Agence bio : production animale et végétale par département
 .pull-left[
@@ -303,7 +304,12 @@ class:inverse, middle, center
 ---
 #IGN : inventaire forestier
 ![](img/inventaire.png)
-
+---
+#CGDD : concentrations en nitrates
+[![](img/nitrates.png)](https://data.statistiques.developpement-durable.gouv.fr/explore/dataset/eau_qual_sup_nit/information/)
+---
+#CGDD : concentrations en nitrates
+[![](img/nitrates2.png)](https://data.statistiques.developpement-durable.gouv.fr/explore/dataset/sout_nit_ref/information/?disjunctive.code_com&disjunctive.code_dep&disjunctive.classe_qualite&disjunctive.niveau)
 ---
 # La base des polluants de Joel 
 
