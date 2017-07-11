@@ -378,7 +378,7 @@ class:inverse, middle, center
 .pull-right[![](img/consoiris.png)]
 ---
 # GRTgaz : consommation de gaz par secteur d'activité
-.pull-left[]
+.pull-left[[Données](https://opendata.grtgaz.com/explore/dataset/conso_gaz_secteurs_industiels/?disjunctive.secteur_industriel&sort=-mois) sur la consommation de gaz annuelle des sites industriels raccordés au réseau de GRTgaz et leur nombre, par maille géographique IRIS ]
 .pull-right[ ![](img/gaz.png) ]
 ---
 # CRE : outils de calculs de la structure des tarifs
