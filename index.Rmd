@@ -319,19 +319,72 @@ class:inverse, middle, center
 #CGDD : concentrations en nitrates
 [![](img/nitrates2.png)](https://data.statistiques.developpement-durable.gouv.fr/explore/dataset/sout_nit_ref/information/?disjunctive.code_com&disjunctive.code_dep&disjunctive.classe_qualite&disjunctive.niveau)
 ---
+# Nitrates : cartographie des données 
+[![](img/nitrates-viz.png)](https://data.statistiques.developpement-durable.gouv.fr/explore/dataset/eau_qual_sup_nit/custom/?refine.classe_associee=plus+de+50+mg%2FL)
+---
 #Registre des émissions polluantes
 [![](img/irep.png)](http://www.georisques.gouv.fr/dossiers/irep-registre-des-emissions-polluantes)
-
 ---
 # Registre des émissions polluantes
 [![](img/mars.png)](https://marsactu.fr/chroniques/pollution-vous-avez-dit-pollution/)
+---
+# INERIS, Prevair : prévision de la pollution
+[![](img/prevair.png)](http://www.data.gouv.fr/fr/datasets/mise-a-disposition-de-donnees-de-qualite-de-lair-sur-la-france-www-prevair-org-1/)
 
 ---
 class:inverse, middle, center
 #Sélection de données ouvertes
 ### ⚡️Energie
 ---
-class:inverse, middle, center
+# Ouverture des données de l'énergie : une obligation légale
+.pull-left[>"permPttre la réutilisation des données détaillées de consommation et de production issues de leur système de comptage d'énergie, dans l'objectif de favoriser notamment le développement d'offres d'énergie, d'usages et de services énergétiques.<br/>
+**Article 23 de la loi pour une république numérique**]
+.pull-right[![](img/decret.png)[Décret d'application](https://www.legifrance.gouv.fr/eli/decret/2017/4/5/ECFC1631045D/jo/texte)]
+---
+#RTE : courbe de charge de la consommation
+[![](img/courbe.png)](https://rte-opendata.opendatasoft.com/explore/dataset/cdc_conso/information/?disjunctive.qualite&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiY29uc28iLCJjb2xvciI6IiNlYTUyNTQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZX1dLCJ4QXhpcyI6ImRhdGVfaGV1cmUiLCJtYXhwb2ludHMiOm51bGwsInRpbWVzY2FsZSI6ImhvdXIiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJjZGNfY29uc28iLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLnF1YWxpdGUiOnRydWV9fX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIn0%3D)
+---
+## RTE : courbe de charge de la production par filière
+[![](img/courbeProd.png)](https://rte-opendata.opendatasoft.com/explore/dataset/cdc_conso/information/?disjunctive.qualite&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiY29uc28iLCJjb2xvciI6IiNlYTUyNTQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZX1dLCJ4QXhpcyI6ImRhdGVfaGV1cmUiLCJtYXhwb2ludHMiOm51bGwsInRpbWVzY2FsZSI6ImhvdXIiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJjZGNfY29uc28iLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLnF1YWxpdGUiOnRydWV9fX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIn0%3D)
+---
+## RTE : imports et exports d'énergie
+.pull-left[ ]
+.pull-right[ ] [![](img/imports.png)](https://rte-opendata.opendatasoft.com/explore/dataset/imports_exports_commerciaux/)
+
+---
+
+# RTE: registre des installations de production
+.pull-left[- [Registre](https://rte-opendata.opendatasoft.com/explore/dataset/registre_parc_prod_rpt/map/?disjunctive.exploitant&disjunctive.filiere&disjunctive.combustible&disjunctive.hierarchie_filiere_combustible&sort=filiere&location=5,46.93526,1.66992&basemap=osmtransport) présente les installations de production raccordées au Réseau de Transport d'Electricité au 31 décembre 2015.
+
+- Comporte type de combustible et SIRET de l'entreprise 
+
+- 881 enregistrements ]
+.pull-right[![](img/registre-viz.png)]
+---
+# Enedis : consommation journalière par catégorie client
+.pull-left[Moyenne journalière de la consommation par catégorie client]
+.pull-right[[![](img/conso.png)](https://data.enedis.fr/explore/dataset/bilan-electrique-transpose/information/)]
+---
+# Enedis : bilan électrique au pas demi-heure
+[![](img/bilan.png)](https://data.enedis.fr/explore/dataset/bilan-electrique-transpose/information/)
+---
+# Enedis : consommation électrique par secteur d'activité par IRIS
+.pull-left[
+- Cconsmmation électrique annuelle moyenne et totale et le nombre de sites par secteur d’activité, aux mailles géographiques région, EPCI et IRIS sur le réseau Enedis. 
+
+- Les [données](https://data.enedis.fr/explore/dataset/consommation-electrique-par-secteurs-dactivite/information/?location=13,47.81898,3.56489) publiées correspondent aux années 2011 à 2015.
+
+]
+.pull-right[![](img/consoiris.png)]
+---
+# GRTgaz : consommation de gaz par secteur d'activité
+.pull-left[]
+.pull-right[ ![](img/gaz.png) ]
+---
+
+
+cl# CRE : outils de calculs de la structure des tarifs
+[![](img/cre.png)](http://www.cre.fr/reseaux/reseaux-publics-d-electricite/outils-de-calcul-de-la-structure-des-tarifs)a---ss:inverse, middle, center
 #L'open data par défaut : un mirage ?
 
 ---
@@ -367,8 +420,6 @@ class:inverse, middle, center
 #Vers un open data de la demande
 ![](img/opengov.jpg)
 ---
-class:inverse,center,middle
-#Maintenant, l'open data ça évoque quoi pour vous ? 
----
+
 class:inverse,center,middle
 #Merci !
