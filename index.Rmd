@@ -246,7 +246,10 @@ class:center, inverse, middle
 #La base SIRENE : exemple de cas d'utilisation
 .reduite[.center[![](img/ruesoif.png)]]
 ---
-#Les marchés publics
+##La base SIRENE : faire une requête
+[![](img/sireneviz.png)](https://public.opendatasoft.com/explore/dataset/sirene/map/?q=nucl%C3%A9aire&refine.libapen=Enrichissement+et+retraitement+de+mati%C3%A8res+nucl%C3%A9aires&location=6,46.17317,2.22443&basemap=jawg.streets)
+---
+Les marchés publics
 .reduite[.center[![https://www.data.gouv.fr/fr/datasets/marches-publics-conclus-recenses-sur-la-plateforme-des-achats-de-letat/](img/place.png)]]
 ---
 #Les marchés publics
